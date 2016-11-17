@@ -3,7 +3,7 @@ tknzr = TweetTokenizer(strip_handles=True, reduce_len=True)
 s1 = '@remy: This is waaaaayyyy too much for bitch you!!!!!!'
 x=tknzr.tokenize(s1)
 x=s1.split()
-s0='ashu'
+str='ashu'
 print("String Entered\n",s1,"\n")
 f = open('words.txt')
 print("Matched Words:")
